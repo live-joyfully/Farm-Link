@@ -1,5 +1,10 @@
 body {
-  background-color: lightblue;
+  background-image: url( 'https://github.com/live-joyfully/farmly/blob/master/wisconsin_farm_country_rural_landscape_sky_clouds_fence-1291613.jpg?raw=true' );
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: center;
+  background-blend-mode: lighten;
+  background-size: cover;
 }
 
 h1 {
