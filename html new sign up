@@ -1,0 +1,64 @@
+<!doctype html>
+<html>
+  <head>
+    <title>farmly</title>
+    <link rel="stylesheet" type="text/css" href="farmly.css">
+  </head>
+<body>
+	<h1> Farm.ly </h1>
+<p>Here at farmly, we believe in connecting local farmers to local customers.</p>
+
+<!DOCTYPE html>
+<html>
+<body>
+	
+<h2>SIGN UP: I'm a Farmer! </h2>
+
+<form action= "/action_page.php">
+	Farm name:<br>
+	<input type="text" name="first name" value="Cherry Valley Farm">
+	<br>
+	First name:<br>
+	<input type="text" name="lastname" value="Robert">
+	<br>
+	Last name:<br>
+	<input type="text" name="last name" value="Einstein">
+	<br>
+	Zipcode:<br>
+	<input type="text" name="zipcode" value="01605">
+	<br><br>
+
+
+	<input type="submit" value="Submit">
+</form>
+
+</body>
+</html>
+
+<!DOCTYPE html>
+<html>
+<body>
+
+
+
+	<h3>SIGN UP: I LOVE LOCAL FARMS!</h3>
+
+	<form action="/action_page.php">
+		First Name:<br>
+		<input type="text" name="first name" value="Leonard">
+		<br>
+		Last Name:<br>
+		<input type="text" name="last name" value="Cohen">
+		<br>
+		Zipcode:<br>
+		<input type="text" name="zipcode" value="01605">
+		<br>
+		Subscribe:<br>
+		<input type="text" name="email" value="suzanne@gmail.com">
+		<br><br>
+
+		<input type="submit" value="submit">
+	</form>
+
+</body>
+</html>
