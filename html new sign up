@@ -19,13 +19,16 @@
 	<input type="text" name="first name" value="Cherry Valley Farm">
 	<br>
 	First name:<br>
-	<input type="text" name="lastname" value="Robert">
+	<input type="text" name="lastname" value="Albert">
 	<br>
 	Last name:<br>
 	<input type="text" name="last name" value="Einstein">
 	<br>
 	Zipcode:<br>
 	<input type="text" name="zipcode" value="01605">
+	<br>
+	Email:<br>
+	<input type="text" name:"email" value="E=MC^2@gmail.com">
 	<br><br>
 
 
@@ -62,3 +65,4 @@
 
 </body>
 </html>
+
