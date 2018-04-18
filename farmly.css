@@ -1,5 +1,6 @@
 body {
-  background-image: url( 'https://github.com/live-joyfully/farmly/blob/master/wisconsin_farm_country_rural_landscape_sky_clouds_fence-1291613.jpg?raw=true' );
+  
+  background-image: url("new farmly background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
@@ -9,4 +10,19 @@ body {
 
 h1 {
   text-align: center;
+  font-family: helvetica;
+
+}
+
+p {text-align: center;
+	font-family: helvetica;
+}
+p {font-size: 22px;
+}
+input {
+	border: 0;
+	padding: 5px;
+
+form {text-align: center;
+	
 }
