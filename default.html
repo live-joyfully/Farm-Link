@@ -3,13 +3,29 @@
   <head>
     <title>farmly</title>
     <link rel="stylesheet" type="text/css" href="farmly.css">
+
+    <!-- Simple image swapping scheme thanks to Markweb on Stack Overflow: https://stackoverflow.com/questions/6764961/change-an-image-with-onclick -->
+    <script>
+      function changeImage() {
+          if (document.getElementById("map_image").src =~ /map.png$/) 
+          {
+              document.getElementById("map_image").src = "map_detail.png";
+          }
+          else 
+          {
+              document.getElementById("map_image").src = "map.png";
+          }
+      }
+    </script>
   </head>
 <body>
-	<h1> Farm.ly </h1>
+<h1> Farm.ly </h1>
 <p>Here at farmly, we believe in connecting local farmers to local customers.</p>
-<form>
-<input type="text"></input>
-<input type="submit"></input>
+<div class='box'> 
+	<div class='content'><img class="map" src="map.png" id="map_image" onclick="changeImage()"/></div>
+</div>
+<form class="location">
+<input type="text" value="Address"></input> <input type="submit" name="Search" value="Find Farms"></input> <input type="submit" name="Current Location" value="Current Location"></input> <a href="./signup.html">Sign Up!</a>
 </form>
 </body>
 </html>

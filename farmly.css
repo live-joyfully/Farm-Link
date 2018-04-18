@@ -1,11 +1,15 @@
+html {
+    height: 100%;
+}
+
 body {
-  
   background-image: url("new farmly background.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: center;
   background-blend-mode: lighten;
   background-size: cover;
+  height: 100%;
 }
 
 h1 {
@@ -14,15 +18,72 @@ h1 {
 
 }
 
-p {text-align: center;
+p {
+  text-align: center;
 	font-family: helvetica;
+  font-size: 22px;
 }
-p {font-size: 22px;
+
+a:link {
+  text-align: center;
+	font-family: helvetica;
+  font-size: 22px;
+  font-color: white;
 }
+
+a:visited {
+  text-align: center;
+	font-family: helvetica;
+  font-size: 22px;
+  font-color: white;
+}
+
+a:hover {
+  text-align: center;
+	font-family: helvetica;
+  font-size: 22px;
+  font-color: lightblue;
+}
+
+a:active {
+  text-align: center;
+	font-family: helvetica;
+  font-size: 22px;
+  font-color: white;
+}
+
+.map {
+  display: block;
+  margin: 0 auto;
+  width: 100%;
+}
+
 input {
 	border: 0;
 	padding: 5px;
+}
 
-form {text-align: center;
-	
+form {
+  text-align: center;
+}
+
+/* Perfect ratio thanks to http://www.mademyday.de/css-height-equals-width-with-pure-css.html */
+.box{
+  margin: auto;
+	position: relative;
+	width: 75%;		/* desired width */
+}
+
+.box:before{
+	content: "";
+	display: block;
+	padding-top: 90%; 	/* initial ratio of 1:1*/
+}
+
+.content{
+	position:  absolute;
+	top: 0;
+	left: 0;
+	bottom: 0;
+	right: 0;
 }
