@@ -5,7 +5,8 @@ const bcrypt = require('bcryptjs');
 const UserSchema = new Schema({
   email: { type: String, required: true, unique: true },
   password: { type: String, required: true },
-  farm: {type: String, required: true}
+  farm: {type: String, required: true},
+  zip: { type: Number, required: true}
 });
 
 UserSchema.pre('save', function(next) {
